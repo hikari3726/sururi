@@ -1,0 +1,4 @@
+--require spec_helper
+
+#テストの出力結果をわかりやすくする
+--format documentation
