@@ -42,6 +42,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 4.0.0.beta2'
   gem 'rails-controller-testing'
+  gem 'rubocop-airbnb'
 end
 
 group :development do
@@ -52,7 +53,6 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  #Springの起動時間を素早くする
   gem 'spring-commands-rspec'
 end
 
