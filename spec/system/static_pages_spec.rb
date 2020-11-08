@@ -8,7 +8,7 @@ RSpec.describe "StaticPages", type: :system do
       end
 
       it "sururiの文字列が存在することを確認" do
-        expect(find("#title")).to have_content 'sururi'
+        expect(page).to have_content 'sururi'
       end
 
       it "正しいタイトルが表示されることを確認" do
@@ -23,7 +23,7 @@ RSpec.describe "StaticPages", type: :system do
     end
 
     it "sururiとは？の文字列が存在することを確認" do
-      expect(find("#title")).to have_content "sururiとは？"
+      expect(page).to have_content "sururiとは？"
     end
 
     it "正しいタイトルが表示されることを確認" do
@@ -37,7 +37,7 @@ RSpec.describe "StaticPages", type: :system do
     end
 
     it "利用規約の文字列が存在することを確認" do
-      expect(find("#title")).to have_content "利用規約"
+      expect(page).to have_content "利用規約"
     end
 
     it "正しいタイトルが表示されることを確認" do
