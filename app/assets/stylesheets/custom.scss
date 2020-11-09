@@ -1,3 +1,6 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 //ミックスイン
 @mixin box_sizing {
   -moz-box-sizing: border-box;
